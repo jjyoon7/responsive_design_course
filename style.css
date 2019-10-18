@@ -32,24 +32,37 @@ header {
 .section-one {
     background-color: black;
     color:white;
-    margin: 0;
-    padding: 20px;
 }
 
 .section-two {
     background-color: white;
-    margin: 0;
-    padding: 20px;
-    border-style: solid;
-    border-width: 1px;
+}
+
+.section-two a {
+    color: black
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FFE600;
+    text-decoration: none;
 }
 
-.bth:hover {
+.section-one .btn {
+    background-color: #FFE600;
+    color: black;
+    
+}
+
+.section-one .btn:hover, .btn:focus {
+    background-color: white;
+}
+
+.section-two .btn {
     background-color: black;
+    color: white;
+}
+
+.section-two .btn:hover, .btn:focus {
+    background-color: #FFE600;
 }
