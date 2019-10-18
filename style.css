@@ -20,7 +20,8 @@ a {
     font-weight: bold;
 }
 
-a:hover, a:focus {
+a:hover, 
+a:focus {
     color: #2E7AD3;
 }
 
@@ -42,4 +43,16 @@ a:hover, a:focus {
 
 .read-more {
     margin: 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
 }
