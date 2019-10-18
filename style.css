@@ -20,6 +20,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: #2E7AD3;
+}
+
 .post {
     background-color: #F1F1F1;
     padding: 25px;
