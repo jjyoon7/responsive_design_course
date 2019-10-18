@@ -1,0 +1,47 @@
+body {
+    margin-top: 0;
+}
+
+h1 {
+    color: #2E7AD3;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+h2 {
+    color: #104C90;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+.blog {
+    margin: 0 auto;
+    padding: 45px;
+    max-width: 500px;
+}
+
+.post {
+    background-color: #F1F1F1;
+    padding: 22px;
+}
+
+.p1 {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.p2 {
+    margin-top: 9px;
+}
