@@ -63,4 +63,5 @@ header {
 
 .btn-black:hover {
     background-color: #FFE600;
+    color: black;
 }
