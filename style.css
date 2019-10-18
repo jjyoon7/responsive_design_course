@@ -1,16 +1,15 @@
 body  {
-    margin: 0 auto;
-    width: 800px;
+    margin: 0;
 }
 
 header {
+    padding: 50px;
     background-color: #FFE600;
-    margin: 0;
-    padding: 20px;
+    color: black;
 }
 
-h1, p {
-    margin: 0;
+h1, h2, p {
+    margin-top: 0;
 }
 
 h1 {
@@ -19,19 +18,11 @@ h1 {
     color: black;
 }
 
-h2 {
-    margin-top: 0;
-}
-
 p {
     font-size: 18px;
 }
 
 a {
-    color: #FFE600;
-}
-
-.accent-color {
     color: #FFE600;
 }
 
