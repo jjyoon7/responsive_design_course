@@ -2,12 +2,6 @@ body  {
     margin: 0;
 }
 
-header {
-    padding: 50px;
-    background-color: #FFE600;
-    color: black;
-}
-
 h1, h2, p {
     margin-top: 0;
 }
@@ -24,6 +18,15 @@ p {
 
 a {
     color: #FFE600;
+}
+
+header, section {
+    padding: 50px;
+}
+
+header {
+    background-color: #FFE600;
+    color: black;
 }
 
 .section-one {
