@@ -26,15 +26,11 @@ a {
     font-weight: bold;
 }
 
-.blog {
-    margin: 0 auto;
-    padding: 45px;
-    max-width: 500px;
-}
-
 .post {
     background-color: #F1F1F1;
-    padding: 22px;
+    padding: 25px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .p1 {
