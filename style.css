@@ -20,7 +20,7 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+a:hover, a:focus {
     color: #2E7AD3;
 }
 
