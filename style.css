@@ -1,58 +1,61 @@
-body {
-    font-size: 16px;
-}
-
-h1 {
-    color: #2E7AD3;
-    font-size: 48px;
-    margin: 45px 0;
-    text-align: center;
-}
-
-h2 {
-    color: #104C90;
-    font-size: 32px;
-    margin: 0 0 10px;
-}
-
-a {
-    color: #FF8000;
-    font-weight: bold;
-}
-
-a:hover, 
-a:focus {
-    color: #2E7AD3;
-}
-
-.post {
-    background-color: #F1F1F1;
-    padding: 25px;
-    max-width: 450px;
+body  {
     margin: 0 auto;
+    width: 800px;
 }
 
-.p1 {
-    margin-top: 25px;
-    margin-bottom: 0;
+header {
+    background-color: #FFE600;
+    margin: 0;
+    padding: 20px;
 }
 
-.p2 {
-    margin-top: 9px;
-}
-
-.read-more {
+h1, p {
     margin: 0;
 }
 
-.button {
-    display: inline-block;
-    background-color: orange;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
 }
 
-.button:hover {
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #FFE600;
+}
+
+.accent-color {
+    color: #FFE600;
+}
+
+.section-one {
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 20px;
+}
+
+.section-two {
     background-color: white;
+    margin: 0;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFE600;
+}
+
+.bth:hover {
+    background-color: black;
 }
