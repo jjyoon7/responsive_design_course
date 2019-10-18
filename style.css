@@ -34,13 +34,11 @@ header {
     color:white;
 }
 
-.section-two {
-    background-color: white;
-}
-
-.section-two a {
+.section-two-link {
     color: black
 }
+
+/* button styles */
 
 .btn {
     display: inline-block;
@@ -48,21 +46,21 @@ header {
     text-decoration: none;
 }
 
-.section-one .btn {
+.btn-yellow {
     background-color: #FFE600;
     color: black;
     
 }
 
-.section-one .btn:hover, .btn:focus {
+.btn-yellow:hover{
     background-color: white;
 }
 
-.section-two .btn {
+.btn-black {
     background-color: black;
     color: white;
 }
 
-.section-two .btn:hover, .btn:focus {
+.btn-black:hover {
     background-color: #FFE600;
 }
