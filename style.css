@@ -1,3 +1,42 @@
 body {
-    
+    margin: 0;
+    font-family: sans-serif;
+    color: #707070;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #312614;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    margin: 0;
+}
+
+strong {
+    color: #B7832F
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+.columns {
+    display: flex;
+    padding-top: 1em;
+}
+.col-brown {
+    background: #312614;
+    color: white;
+    padding: 1em;
 }
