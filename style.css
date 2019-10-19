@@ -1,67 +1,51 @@
-body  {
+body {
     margin: 0;
-}
-
-h1, h2, p {
-    margin-top: 0;
-}
-
-h1 {
-    font-size: 30px;
-    text-align: center;
-    color: black;
-}
-
-p {
-    font-size: 18px;
-}
-
-a {
-    color: #FFE600;
-}
-
-header, section {
-    padding: 50px;
+    font-family: sans-serif;
 }
 
 header {
-    background-color: #FFE600;
-    color: black;
+    background-color: #2E354F;
 }
 
-.section-one {
-    background-color: black;
-    color:white;
-}
-
-.section-two-link {
-    color: black
-}
-
-/* button styles */
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-.btn-yellow {
-    background-color: #FFE600;
-    color: black;
-    
-}
-
-.btn-yellow:hover{
-    background-color: white;
-}
-
-.btn-black {
-    background-color: black;
+h1 {
+    margin: 0;
     color: white;
 }
 
-.btn-black:hover {
-    background-color: #FFE600;
-    color: black;
+h2, a {
+    color: #EF5839;
+    margin-top: 0;
+}
+
+.front-strong {
+    font-weight: bold;
+}
+
+.container {
+    width: 620px;
+    padding: 30px;
+}
+
+.section-one {
+    background-color: white;
+}
+
+.section-two {
+    background-color: #2E354F;
+    color: white;
+}
+
+.btn {
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-accent {
+    background-color: #EF5839;
+    color: white;
+}
+
+.btn-mono {
+    background-color: white;
 }
