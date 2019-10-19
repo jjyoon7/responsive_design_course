@@ -1,15 +1,18 @@
 body {
     margin: 0;
-    font-family: sans-serif;
-}
-
-header {
+    font-family: 'Lato', sans-serif;
     background-color: #2E354F;
 }
 
+/* typography */
+
+h1, h2, strong {
+    font-weight: 900;
+}
+
 h1 {
+    font-size: 45px;
     margin: 0;
-    color: white;
 }
 
 h2, a {
@@ -17,25 +20,14 @@ h2, a {
     margin-top: 0;
 }
 
-.front-strong {
-    font-weight: bold;
+a:hover, a:focus {
+    color: green;
 }
 
-.container {
-    width: 620px;
-    padding: 30px;
-}
-
-.section-one {
-    background-color: white;
-}
-
-.section-two {
-    background-color: #2E354F;
-    color: white;
-}
+/* buttons */
 
 .btn {
+    display: inline-block;
     padding: 12px 25px;
     text-decoration: none;
     font-weight: bold;
@@ -46,6 +38,41 @@ h2, a {
     color: white;
 }
 
+.btn-accent:hover {
+    color: #EF5839;
+    background-color: white;
+}
+
 .btn-mono {
     background-color: white;
 }
+
+.btn-mono:hover {
+    background-color: #EF5839;
+    color: white;
+}
+
+/* layout */
+
+header {
+    padding: 45px 0;
+    color: white;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 45px;
+}
+
+.section-one {
+    background: white;
+}
+
+.section-two {
+    color: white;
+}
+
