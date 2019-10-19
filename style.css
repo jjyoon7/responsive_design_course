@@ -2,12 +2,10 @@ body {
     margin: 0;
     font-family: sans-serif;
     color: #707070;
-    font-size: 16px;
+    font-size: 1.125rem;
 }
 
-img {
-    width: 100%;
-}
+/* typography */
 
 h1 {
     color: #312614;
@@ -15,17 +13,24 @@ h1 {
     font-size: 3rem;
 }
 
+h1 span {
+    color: #B7832F
+}
+
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 p {
     margin: 0;
 }
 
-strong {
-    color: #B7832F
+/* layout */
+
+img {
+    max-width: 100%;
 }
+
 .container {
     margin: 0 auto;
     width: 90%;
@@ -33,7 +38,19 @@ strong {
 }
 .columns {
     display: flex;
-    padding-top: 1em;
+    margin: 1em 0;
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 75%;
 }
 .col-brown {
     background: #312614;
