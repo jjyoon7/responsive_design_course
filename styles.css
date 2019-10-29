@@ -49,12 +49,15 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1em;   
+    margin-left: 2em;   
 }
 
 @media (max-width:675px) {
     .container {
         flex-direction: column;
+    }
+    header {
+        text-align: center;
     }
 }
 
@@ -75,4 +78,15 @@ nav a:focus {
 
 .current-page:hover {
     color: #707070;
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        /* padding: 10px; */
+        margin: 0.5em 0;
+    }
 }
