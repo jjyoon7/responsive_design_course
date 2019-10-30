@@ -71,6 +71,24 @@ header {
     background-color: #f8f8f8;
     padding: 2em 0;
 }
+.article-recent {
+    display: flex;
+}
+
+.article-recent-main {
+
+}
+
+.article-recent-secondary {
+    
+}
+.sidebar {
+    background-color: #707070;
+}
+
+.sidebar-widget {
+    background-color: white;
+}
 
 footer {
     background-color: #143774;
