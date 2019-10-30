@@ -26,10 +26,13 @@ p, ul {
 
 /* layout */
 .container {
-    display: flex;
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -53,7 +56,7 @@ nav li {
 }
 
 @media (max-width:675px) {
-    .container {
+    .container-nav {
         flex-direction: column;
     }
     header {
