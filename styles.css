@@ -4,26 +4,57 @@ body {
 
 /* typography */
 
-h1 {
-    color: #143774;
+h1, h2, h3 {
     font-family: 'Lora', serif;
-    font-size: 2rem;
+    color: #143774;
     font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;    
     margin: 0;
 }
 
 p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #707070;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: 'Ubuntu', sans-serif;
     color: #1792D2;
+    font-weight: bold;
     font-size: 0.75rem;
     margin: 0;
 }
 
-p, ul {
+.ul-nav {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: bold;
 }
 
+.article-info {
+    color: #707070;
+    font-size: 0.857rem;
+}
+
+.article-read-more {
+    font-family: 'Ubuntu', sans-serif;
+    color: #1792D2;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+.widget-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #143774;
+    text-transform: uppercase;
+}
 /* layout */
 .container {
     width: 90%;
@@ -39,6 +70,22 @@ p, ul {
 header {
     background-color: #f8f8f8;
     padding: 2em 0;
+}
+
+footer {
+    background-color: #143774;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.footer-title {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-copyright {
+    margin: 0.5rem 0;
 }
 
 /* navigation */
