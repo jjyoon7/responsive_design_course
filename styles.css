@@ -57,6 +57,7 @@ strong {
 .article-info {
     color: #707070;
     font-size: 0.857rem;
+    margin: 2em 0;
 }
 
 .article-read-more {
@@ -184,4 +185,12 @@ nav a:focus {
         /* padding: 10px; */
         margin: 0.5em 0;
     }
+}
+
+/* article */
+
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
 }
