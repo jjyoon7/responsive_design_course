@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* typography */
@@ -16,14 +19,25 @@ h1 {
 }
 
 p {
-    font-family: 'Ubuntu', sans-serif;
     color: #707070;
-    font-size: 1.125rem;
-    font-weight: 400;
 }
 
+a {
+    color: #1792D2;
+}
+
+a:hover,
+a:focus {
+    color: #143774;
+}
+
+strong {
+    /* because based on the browser, it could use 'bolder', so it is good to specify the weight. */
+    font-weight: 700;
+}
+
+/* h1 subtitle */
 .subtitle {
-    font-family: 'Ubuntu', sans-serif;
     color: #1792D2;
     font-weight: bold;
     font-size: 0.75rem;
@@ -31,7 +45,6 @@ p {
 }
 
 .ul-nav {
-    font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -42,15 +55,19 @@ p {
 }
 
 .article-read-more {
-    font-family: 'Ubuntu', sans-serif;
     color: #1792D2;
     text-decoration: none;
     font-weight: 700;
     font-size: 0.875rem;
     text-transform: uppercase;
 }
+.article-read-more:hover,
+.article-readmore:focus {
+    text-decoration: underline;
+    color: #143774;
+}
+
 .widget-title {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     color: #143774;
     text-transform: uppercase;
