@@ -74,12 +74,15 @@ strong {
     color: #143774;
 }
 
+.widget-title,
+.widget-recent-post-title {
+    font-size: 1rem;
+}
+
 .widget-title {
     font-weight: 700;
-    color: #143774;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.25rem;
 }
 /* layout */
 .container {
@@ -233,6 +236,18 @@ nav a:focus {
     padding: 1rem;
 }
 
+.widget-recent-post {
+    border-bottom: #707070 1px solid;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-recent-post:last-child {
+    border: none;
+    margin: 0;
+}
+
 .widget-01 {
     margin-bottom: 2rem;
 }
@@ -240,10 +255,11 @@ nav a:focus {
 .widget-image {
     width: 100%;
     max-height: 150px;
+    margin-bottom: 0.8em;
     object-fit: cover;
+    order: 1;
 }
 
-.widget-recent-post {
-    border-bottom: #707070 1px solid;
-    margin-bottom: 1.5rem;
+.widget-recent-post-title {
+    order: 2;
 }
