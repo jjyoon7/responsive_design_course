@@ -74,6 +74,10 @@ strong {
     color: #143774;
 }
 
+.article-aboutme-h3 {
+    color: #1792D2;
+}
+
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
@@ -227,6 +231,20 @@ nav a:focus {
         object-fit: cover;
         /* object-position: left; */
     }
+}
+
+.article-aboutme {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.article-aboutme-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    order:-1;
+    margin-bottom: 2em;
 }
 
 /* widgets */
