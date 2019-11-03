@@ -3,7 +3,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
-    /* unit-less advised to use so it could adapt to whatever font-size*/
     line-height: 1.6;
 }
 
