@@ -49,6 +49,7 @@ strong {
 .ul-nav,
 .article-read-more {
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .subtitle {
@@ -83,6 +84,10 @@ strong {
 
 .article-aboutme-h3 {
     color: #1792D2;
+}
+
+.widget-title {
+    letter-spacing: 2px;
 }
 
 .widget-title,
