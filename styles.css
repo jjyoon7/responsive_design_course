@@ -45,6 +45,12 @@ strong {
 }
 
 /* h1 subtitle */
+.subtitle,
+.ul-nav,
+.article-read-more {
+    text-transform: uppercase;
+}
+
 .subtitle {
     color: #1792D2;
     font-weight: bold;
@@ -68,7 +74,6 @@ strong {
     text-decoration: none;
     font-weight: 700;
     font-size: 0.875rem;
-    text-transform: uppercase;
 }
 .article-read-more:hover,
 .article-readmore:focus {
@@ -83,6 +88,7 @@ strong {
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
+    line-height: 1.3;
 }
 
 .widget-title {
@@ -179,7 +185,6 @@ nav a:focus {
     }
 
     nav li {
-        /* padding: 10px; */
         margin: 0.5em 0;
     }
 }
