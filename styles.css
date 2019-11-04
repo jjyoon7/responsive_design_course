@@ -56,5 +56,24 @@ strong {
     background-size: cover;
 }
 
+.main-header {
+    position: fixed;
+    top:0;
+}
+
 .main-header-gradient {
+
+}
+
+.main-subcontent {
+    
+}
+
+.aside-bbq {
+    padding: 1rem;
+}
+
+.aside-form-input-div {
+    display: flex;
+    flex-direction: row;
 }
