@@ -1,4 +1,5 @@
 * {
+    /* when it is not set to border-box, it might cause the scrolling bar used with 100vh */
     box-sizing: border-box;
 }
 
