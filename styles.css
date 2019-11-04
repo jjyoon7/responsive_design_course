@@ -11,18 +11,6 @@ body {
     text-align: center;
 }
 
-@media (min-width:675px) {
-    .container {
-        display: flex;
-    }
-    .main-bbq {
-        width: 60%;
-    }
-    .aside-bbq {
-        width: 40%;
-    }
-}
-
 .margin-bottom {
     margin-bottom: 0.5rem;
 }
@@ -33,6 +21,7 @@ h1 {
     color: #fff;
     font-weight: 300;
     font-size: 2.25rem;
+    margin: 2em 0;
 }
 
 
@@ -58,13 +47,9 @@ h2, h3, button, .main-header {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    margin-bottom: 0;
 }
-
-/* p {
-    font-size: 1rem;
-} */
-
 strong {
     font-weight: 900;
 }
@@ -73,33 +58,52 @@ input {
     text-align: center;
 }
 
+.main-header {
+    letter-spacing: 2px;
+}
+
+.main-subcontent {
+    margin: 0;
+}
+
 .aside-header {
     text-transform: none;
+    color: #404040;
+}
+
+.aside-subheader {
+    margin: 0;
 }
 
 .aside-form-legal {
     font-size: 0.625rem;
+    letter-spacing: 1px;
+    margin-bottom: 0;
 }
 
 /* layout */
+
 .main-bbq {
-    padding: 100px;
+    padding: 0 .5em 2em;
+    background-color: #404040;
     background-image: url(../images/ribs.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-header {
-
+    order: -2;
 }
 
-.main-header-gradient {
+/* .main-content {
+    max-width: 19rem;
+} */
 
-}
-
-.main-subcontent {
+/* .main-subcontent {
     
-}
+} */
 
 .aside-bbq {
     padding: 1rem;
@@ -132,3 +136,31 @@ input {
 4. give gradient to button
 5. position sub-header in the main in different positon
 */
+
+
+/* media queries*/
+
+@media (min-width:550px) {
+    body {
+        font-size: 1.125rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+        line-height: 1em;
+    }
+    .aside-form-legal {
+        font-size: 0.8rem;
+    }
+    .container {
+        display: flex;
+    }
+    .main-bbq {
+        width: 60%;
+    }
+    .aside-bbq {
+        width: 40%;
+    }
+}
