@@ -10,6 +10,22 @@ body {
     text-align: center;
 }
 
+@media (min-width:675px) {
+    .container {
+        display: flex;
+    }
+    .main-bbq {
+        width: 60%;
+    }
+    .aside-bbq {
+        width: 40%;
+    }
+}
+
+.margin-bottom {
+    margin-bottom: 0.5rem;
+}
+
 /* typography */
 
 h1 {
@@ -37,6 +53,10 @@ p {
 
 strong {
     font-weight: 900;
+}
+
+input {
+    text-align: center;
 }
 
 .aside-header {
@@ -73,8 +93,17 @@ strong {
 }
 
 .aside-form-input-div {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 15rem;
     margin: 0 auto;
+    justify-content: space-between;
+    /* background-color: pink; */
+    margin-bottom: 1rem;
+}
+
+input, button {
+    border-radius: 5px;
+    height: 1.6rem;
 }
