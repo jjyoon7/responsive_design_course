@@ -139,7 +139,7 @@ input {
     body {
         font-size: 1.125rem;
         display: flex;
-        height: 100vh;
+        min-height: 100vh;
     }
     h1 {
         font-size: 3.5rem;
