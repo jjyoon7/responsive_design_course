@@ -57,8 +57,7 @@ strong {
 }
 
 .main-header {
-    position: fixed;
-    top:0;
+
 }
 
 .main-header-gradient {
@@ -75,5 +74,7 @@ strong {
 
 .aside-form-input-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
 }
