@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    /* display: flex; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* typography */
+
+h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+
+h2, h3, .main-header {
+    color: #F18119;
+}
+
+h2, h3, button, .main-header {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+p {
+    color: #404040;
+    font-size: 1rem;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.aside-header {
+    color: #404040;
+    text-transform: none;
+}
+
+.aside-form-legal {
+    font-size: 0.625rem;
+}
+
+/* layout */
+.main-bbq {
+    padding: 100px;
+    background-image: url(../images/ribs.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-header-gradient {
+}
