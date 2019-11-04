@@ -1,13 +1,8 @@
 body {
-    margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     color: #404040;
-}
-
-.container {
-    /* display: flex; */
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
 }
 
@@ -143,6 +138,8 @@ input {
 @media (min-width:550px) {
     body {
         font-size: 1.125rem;
+        display: flex;
+        height: 100vh;
     }
     h1 {
         font-size: 3.5rem;
@@ -154,13 +151,14 @@ input {
     .aside-form-legal {
         font-size: 0.8rem;
     }
-    .container {
-        display: flex;
-    }
     .main-bbq {
         width: 60%;
+        /* align-items: center;
+        justify-content: center; */
     }
     .aside-bbq {
         width: 40%;
+        /* align-items: center;
+        justify-content: center; */
     }
 }
