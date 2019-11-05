@@ -60,6 +60,7 @@ strong {
 
 input {
     text-align: center;
+    font-family: inherit;
 }
 
 .main-header {
@@ -111,20 +112,34 @@ input {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    max-width: 20em;
+    width: 80%;
+    max-width: 300px;
     margin: 0 auto;
     justify-content: space-between;
     /* background-color: pink; */
     margin-bottom: 1rem;
 }
 
-input, button {
-    border-radius: 5px;
+input, .btn {
+    width: 100%;
+    border-radius: 3px;
     height: 1.6rem;
 }
 
 input {
     border: 1px solid #404040;
+    padding: 0.25em;
+}
+
+.btn {
+    border: none;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.25em 1.5em;
+    font-size: 0.625rem;
+    background-image: linear-gradient(-45deg, #DF4E13, #FFA51D );
 }
 
 /* 
