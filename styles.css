@@ -132,14 +132,24 @@ input {
 }
 
 .btn {
-    border: none;
-    color: white;
     font-weight: 900;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 0.25em 1.5em;
+    padding: 0.5em 1.5em;
     font-size: 0.625rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
     background-image: linear-gradient(-45deg, #DF4E13, #FFA51D );
+    color: white;
+    transform: scale(1);
+    transition: transform 0.25s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
 }
 
 /* 
@@ -171,16 +181,11 @@ input {
     }
     .main-bbq {
         width: 60%;
-        /* align-items: center;
-        justify-content: center; */
     }
     .aside-bbq {
         width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .main-bbq {
-        
     }
 }
