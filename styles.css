@@ -99,6 +99,7 @@ input {
 .main-bbq {
     padding: 0 .5em 2em;
     background-color: #404040;
+    background-blend-mode: overlay;
     background-image: url(../images/ribs.jpg);
     background-position: center;
     background-size: cover;
