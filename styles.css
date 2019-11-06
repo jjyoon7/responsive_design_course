@@ -98,13 +98,20 @@ p {
 }
 
 @media (min-width: 700px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
     .container {
         display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     
     .main-image-div {
-        width: 40%;
+        width: 45%;
         min-height: 100vh;
+        flex-shrink: 2;
     }
     
     .main-image {
@@ -112,7 +119,14 @@ p {
         object-fit: cover;
     }
     
-    .main-content-div {
-        width: 60%;
+    .content-div {
+        width: 55%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        border: solid pink 2px;
+    }
+    .main-bottom-content-div {
+        /* border: pink solid 2px; */
     }
 }
