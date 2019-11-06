@@ -236,6 +236,9 @@ nav a:focus {
         object-fit: cover;
         /* object-position: left; */
     }
+    .article-image-feature {
+        object-position: 75%;
+    }
     .article-image-left {
         object-position: 13%;
     }
