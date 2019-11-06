@@ -30,6 +30,7 @@ p {
 
 a {
     color: #1792D2;
+    text-decoration: none;
 }
 
 a:hover,
@@ -231,6 +232,9 @@ nav a:focus {
         object-fit: cover;
         /* object-position: left; */
     }
+    .article-image-left {
+        object-position: 13%;
+    }
 }
 
 .article-aboutme {
@@ -248,6 +252,10 @@ nav a:focus {
 }
 
 /* widgets */
+
+.sidebar {
+    margin-bottom: 1em;
+}
 
 .sidebar-widget {
     border: #EBEBEB 12px solid;
