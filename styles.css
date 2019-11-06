@@ -39,8 +39,8 @@ p {
 /* layout */
 
 .main-image-div {
-    width: 100%;
-    height: 20%;
+    display: flex;
+    max-height: 380px;
 }
 
 .main-image {
@@ -51,11 +51,13 @@ p {
 .main-content-div {
     display: flex;
     flex-direction: column;
-    padding: 1.5em;
+    padding: 2rem;
+    /* border: solid 2px pink; */
+    margin-bottom: 3rem;
 }
 
 .main-content-text {
-    margin-bottom: 5rem;
+    line-height: 1.5;
 }
 
 .main-bottom-content-div {
@@ -63,6 +65,8 @@ p {
     justify-content: space-between;
     align-items: flex-end;
     flex-grow: 1;
+    padding: 2rem;
+    /* border: solid 2px pink; */
 }
 
 .main-content-info-15,
@@ -77,6 +81,15 @@ p {
     font-size: 1.25rem;
     width: 12rem;
     letter-spacing: 1px;
+    border-radius: 2px;
+    color: #111d4A;
+    transition: color 0.25s;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: white;
 }
 
 .btn-primary {
