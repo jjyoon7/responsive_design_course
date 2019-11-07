@@ -6,7 +6,7 @@
     display: grid;
     /* grid-template-columns: 250px 250px;
     grid-template-rows: 100px 200px; */
-    grid-template: 100px 200px / 250px 250px;
+    grid-template: 100px 200px 200px / 250px 250px 300px;
 }
 
 .grid-item {
@@ -17,4 +17,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
