@@ -2,9 +2,19 @@
     box-sizing: border-box;
 }
 
-body {
+.grid {
     display: grid;
     /* grid-template-columns: 250px 250px;
     grid-template-rows: 100px 200px; */
     grid-template: 100px 200px / 250px 250px;
+}
+
+.grid-item {
+    background: #B823C1;
+    color: white;
+    padding: 1em 2em;
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
