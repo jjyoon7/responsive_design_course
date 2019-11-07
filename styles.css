@@ -1,27 +1,26 @@
 .grid {
     display: grid;
-    grid-template: 100px 100px 100px / 200px 200px 200px 200px;
+    grid-template-columns: 150px 150px 200px;
+    
+    justify-items: stretch;
   }
   
   .grid-item {
+    background: #B823C1;
     color: white;
     padding: 1em 2em;
     border: 2px solid purple;
     display: flex;
     align-items: center;
     justify-content: center;
-    
   }
   
-  .one {
-      background: #B823C1;
-      grid-row: span 3;
-      grid-column : span 2;
-
-  }
-  
-  .two {
+  .big {
+      padding: 3em 2em;
       background: #FF5670;
-      grid-row: 1 / span 2;
-      grid-column: span 1;
+  }
+  
+  .start {
+    align-self: start;
+    justify-self: start;
   }
