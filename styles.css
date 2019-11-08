@@ -8,11 +8,11 @@ body {
 .portfolio {
   padding: 1em;
   display: grid;
-  grid-template: repeat(3, auto) / repeat(3, 1fr);
-  grid-template-areas: 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* grid-template-areas: 
     "header header header"
     "card card card"
-    "card card card";
+    "card card card"; */
   gap: 1em 1em;
 }
 
