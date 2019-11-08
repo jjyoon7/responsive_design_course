@@ -1,31 +1,84 @@
-.grid {
-    display: grid;
-    grid-template-columns: 150px 150px 200px;
-    
-    justify-items: stretch;
-  }
-  
-  .grid-item {
-    background: #B823C1;
-    color: white;
-    padding: 1em 2em;
-    border: 2px solid purple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .big {
-    padding: 3em 2em;
-    background: #FF5670;
-  }
-  
-  .start {
-    align-self: start;
-    justify-self: start;
-  }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .end {
-    align-self: end;
-    justify-self: end;
-  }
+.card {
+  width: 90%;
+  max-width: 800px;
+  background: #111d4a;
+  color: #fff;
+  display: grid;
+  grid-template: 200px 110px 90px 200px / 100px 200px;
+}
+
+.card-img {
+  object-fit: cover;
+  width: 100%;
+  grid-column: span 2;
+  grid-row: 1 / span 1;
+}
+
+.card-content {
+  display: grid;
+  grid-column: span 2;
+  grid-row: 2 / 5;
+}
+
+.card-footer {
+  display: grid;
+}
+
+.card-read-time {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.card-btn {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+
+.card-title,
+.card-read-time,
+.card-btn {
+  font-family: 'Blinker', sans-serif;
+}
+
+.card-title {
+  color: #05cbe9;
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.card-body {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+}
+
+.card-btn {
+  font-size: 1.25rem;
+  background: #05cbe9;
+  color: #111d4a;
+  text-decoration: none;
+  font-weight: 700;
+  padding: .35em 1em;
+  letter-spacing: 1px;
+}
+
+.card-read-time {
+  margin: 0;
+  opacity: .6;
+  line-height: 1;
+}
+
+.card-read-time span {
+  font-weight: 700;
+  display: block;
+  font-size: 1.25em;
+}
