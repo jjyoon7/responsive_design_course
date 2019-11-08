@@ -92,7 +92,7 @@ body {
 
 @media (min-width: 600px) {
     .card {
-      grid-template: 1em auto auto 180px 1em  / 200px auto auto 1em;
+      grid-template: 1em auto auto 180px 1em  / minmax(180px, 500px) auto auto 1em;
       grid-template-areas: "img . . ."
                            "img content content ."
                            "img subcontent subcontent ."
