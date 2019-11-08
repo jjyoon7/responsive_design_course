@@ -15,36 +15,35 @@ body {
   color: #fff;
   display: grid;
   grid-template: 200px 1em auto auto 100px 1em / 1em auto auto 1em;
-  grid-auto-rows: 500px;
-  grid-auto-columns: 40px;
+  grid-template-areas: "img img img img"
+                       ". . . . "
+                       ". content content ."
+                       ". subcontent subcontent ."
+                       ". info button .";
 }
 
 .card-img {
   object-fit: cover;
-  grid-column: 1 / -1;
+  grid-area: img;
   width: 100%;
   height: 100%;
 }
 
 .card-title {
-  grid-row: 3;
-  grid-column: 2 / -2;
+  grid-area: content;
 }
 
 .card-body {
-  grid-row: 4;
-  grid-column: 2 / -2;
+  grid-area: subcontent;
 }
 
 .card-read-time {
-  grid-column: 2;
-  grid-row: 5;
+  grid-area: info;
   align-self: end;
 }
 
 .card-btn {
-  grid-column: 3;
-  grid-row: 5;
+  grid-area: button;
   justify-self: end;
   align-self: end;
 }
@@ -94,28 +93,11 @@ body {
 @media (min-width: 600px) {
     .card {
       grid-template: 1em auto auto 180px 1em  / 200px auto auto 1em;
+      grid-template-areas: "img . . ."
+                           "img content content ."
+                           "img subcontent subcontent ."
+                           "img info button ."
+                           "img . . . ";
       gap: 1em;
-    }
-
-    .card-img {
-      grid-column: 1 / 2;
-      grid-row: 1 / 6;
-    }
-
-    .card-title {
-      grid-column: 3 / 4;
-    }
-
-    .card-body {
-      grid-column: 3 / 4;
-    }
-
-    .card-read-time {
-      grid-column: 3;
-      grid-row: 4;
-    }
-
-    .card-btn {
-      grid-row: 4;
     }
 }
