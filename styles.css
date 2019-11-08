@@ -12,24 +12,14 @@ body {
   background: #111d4a;
   color: #fff;
   display: grid;
-  grid-template: 200px 110px 90px 200px / 100px 200px;
+  grid-template: 200px auto auto 150px / auto auto;
 }
 
 .card-img {
   object-fit: cover;
+  grid-column: 1 / -1;
   width: 100%;
-  grid-column: span 2;
-  grid-row: 1 / span 1;
-}
-
-.card-content {
-  display: grid;
-  grid-column: span 2;
-  grid-row: 2 / 5;
-}
-
-.card-footer {
-  display: grid;
+  height: 100%;
 }
 
 .card-read-time {
@@ -38,6 +28,8 @@ body {
 }
 
 .card-btn {
+  justify-self: center;
+  align-self: center;
   grid-column: 2 / 3;
   grid-row: 4 / 5;
 }
@@ -53,12 +45,14 @@ body {
   color: #05cbe9;
   font-size: 1.75rem;
   margin: 0;
+  grid-column: 1 / -1;
 }
 
 .card-body {
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.6;
+  grid-column: 1 / -1;
 }
 
 .card-btn {
