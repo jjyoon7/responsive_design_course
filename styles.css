@@ -1,103 +1,40 @@
 body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+  background: #333;
+  margin: 3em;
 }
 
-/* layout */
-
-.card {
-  width: 90%;
-  max-width: 800px;
-  background: #111d4a;
-  color: #fff;
+.portfolio {
+  padding: 1em;
   display: grid;
-  grid-template: 200px 1em auto auto 100px 1em / 1em auto auto 1em;
-  grid-template-areas: "img img img img"
-                       ". . . . "
-                       ". content content ."
-                       ". subcontent subcontent ."
-                       ". info button .";
+  grid-template: auto auto auto / 1fr 1fr 1fr;
+  grid-template-areas: 
+    "header header header"
+    "card card card"
+    "card card card";
+  gap: 1em 1em;
 }
 
-.card-img {
-  object-fit: cover;
-  grid-area: img;
-  width: 100%;
-  height: 100%;
+.portfolio-title {
+  text-align: center;
+  color: #00C896;
+  grid-area: header;
 }
 
-.card-title {
-  grid-area: content;
+img {
+  max-width: 100%;
 }
 
-.card-body {
-  grid-area: subcontent;
+.portfolio-card {
+  box-shadow: 0 0 1em rgba(0,0,0,.25);
+  padding: 1em;
+  background: white;
 }
 
-.card-read-time {
-  grid-area: info;
-  align-self: end;
+.portfolio-card-title {
+  font-size: 1.5rem;
+  color: #000;
 }
-
-.card-btn {
-  grid-area: button;
-  justify-self: end;
-  align-self: end;
-}
-
-/* typography */
-
-.card-title,
-.card-read-time,
-.card-btn {
-  font-family: 'Blinker', sans-serif;
-}
-
-.card-title {
-  color: #05cbe9;
-  font-size: 1.75rem;
-  margin: 0;
-}
-
-.card-body {
-  font-size: 1rem;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.6;
-}
-
-.card-btn {
-  font-size: 1.25rem;
-  background: #05cbe9;
-  color: #111d4a;
-  text-decoration: none;
-  font-weight: 700;
-  padding: .35em 1em;
-  letter-spacing: 1px;
-}
-
-.card-read-time {
-  margin: 0;
-  opacity: .6;
-  line-height: 1;
-}
-
-.card-read-time span {
-  font-weight: 700;
-  display: block;
-  font-size: 1.25em;
-}
-
-@media (min-width: 600px) {
-    .card {
-      grid-template: 1em auto auto 180px 1em  / minmax(200px, 1fr) 2fr;
-      grid-template-areas: "img . . ."
-                           "img content content ."
-                           "img subcontent subcontent ."
-                           "img info button ."
-                           "img . . . ";
-      gap: 1em;
-    }
-}
+/* 
+.card1 { grid-area: card1; } */
