@@ -5,10 +5,14 @@
 body {
     margin: 0;
     font-family: 'Karla', sans-serif;
-    color: #00dbd0
+    color: #00dbd0;
 }
 
 /* typography */
+ul {
+    list-style-type: none;
+}
+
 p {
     color: #005752;
 }
@@ -26,3 +30,46 @@ a {
 }
 
 /* layout */
+.body {
+    display: grid;
+    grid-template: auto auto auto auto / 1fr 1fr 1fr;
+    grid-template-areas: 
+                        "header header header"
+                        "hero hero hero"
+                        "content content content"
+                        "footer footer social";
+}
+
+.nav {
+    display: grid;
+}
+
+.header-nav-logo {
+    /* display: flex; */
+    background: pink;
+    grid-area: header;
+}
+
+.header-nav-logo {
+    grid-area: header;
+}
+
+.header-nav {
+    grid-area: header;
+}
+
+.main-hero {
+    background-image: url(images/plant-hero.jpg);
+    grid-area: hero;
+    padding: 1em;
+    object-fit: cover;
+}
+
+.main-content {
+    grid-area: content;
+}
+
+.footer-social {
+    grid-area: social;
+}
+
