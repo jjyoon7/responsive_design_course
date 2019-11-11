@@ -25,6 +25,18 @@ a {
     border-radius: 2px;
 }
 
+.header-nav-logo {
+    text-align: center;
+}
+
+.header-nav {
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
 .footer-copyright {
     color: #b8b8b8;
 }
@@ -32,12 +44,12 @@ a {
 /* layout */
 .body {
     display: grid;
-    grid-template: auto auto auto auto / 1fr 1fr 1fr;
+    grid-template: auto auto auto auto / 1em 1fr 1fr 1fr 1em;
     grid-template-areas: 
-                        "header header header"
-                        "hero hero hero"
-                        "content content content"
-                        "footer footer social";
+                        ". heder header header ."
+                        ". hero hero . ."
+                        ". content content content ."
+                        ". footer footer social .";
 }
 
 .nav {
