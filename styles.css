@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    color: #00dbd0
+}
+
+/* typography */
+p {
+    color: #005752;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    background: #005752;
+    padding: 0.25em 0.7em;
+    border-radius: 2px;
+}
+
+.footer-copyright {
+    color: #b8b8b8;
+}
+
+/* layout */
