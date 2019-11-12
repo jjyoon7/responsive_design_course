@@ -67,11 +67,12 @@ a {
 ===================== */
 .hero {
     background-image: url(images/plant-hero.jpg);
+    background-size: cover;
     padding: 4em 0;
 }
 
 .hero > * {
-    grid-column: 2 / -2
+    grid-column: 2 / -2;
 }
 
 /* ==================
@@ -86,6 +87,7 @@ a {
 
 .col {
     grid-column: 2 / -2;
+    margin-bottom: 1em;
 }
 
 /* ==================
@@ -122,12 +124,29 @@ a {
     color: #001a17;
 }
 
-@media (min-width: 700px) {
+.footer-logo {
+    max-width: 50%;
+}
+
+/* ==================
+    media-query
+===================== */
+
+@media (min-width: 500px) {
     .main-grid {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(200px, 320px)) minmax(1em, 1fr);
+    }
+    .hero > * {
+        grid-column: 2 / span 2;
+    }
+    .info {
+        padding: 4em 0;
+        gap: 2em;
     }
     .col {
-        grid-column: 1 / 2;
+        grid-column: span 1;
     }
-    
+    .col:first-child {
+        grid-column: 2 / span 1;
+    }
 }
