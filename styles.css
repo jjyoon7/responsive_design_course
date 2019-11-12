@@ -98,15 +98,17 @@ a {
     background: #f5f5f5;
     text-align: center;
     padding: 4em 0;
+    grid-template-areas: 
+                        ". social ."
+                        ". main .";
 }
 
-.footer-main,
-.social-list {
-    grid-column: 2 / -2;
+.footer-main {
+    grid-area: main;
 }
 
 .social-list {
-    order: -1;
+    grid-area: social;
     list-style: none;
     padding: 0;
     margin: 0 0 2em;
@@ -116,7 +118,7 @@ a {
 
 .social-link {
     color: #005752;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0 .5em;
 }
 
@@ -132,21 +134,31 @@ a {
     media-query
 ===================== */
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
     .main-grid {
-        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(200px, 320px)) minmax(1em, 1fr);
+        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(150px, 320px)) minmax(1em, 1fr);
+        grid-column-gap: 2em;
     }
     .hero > * {
         grid-column: 2 / span 2;
     }
     .info {
         padding: 4em 0;
-        gap: 2em;
     }
     .col {
         grid-column: span 1;
     }
     .col:first-child {
         grid-column: 2 / span 1;
+    }
+    .footer {
+        grid-template-areas: 
+                            ". main main social .";
+    }
+    .footer-main {
+        text-align: left;
+    }
+    .social-list {
+        justify-content: flex-end;
     }
 }
