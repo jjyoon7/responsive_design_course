@@ -1,11 +1,12 @@
-const nav = document.queryCommandIndeterm("nav")
+const closeBtn = document.querySelector(".close-nav")
 const navOpen = "open-nav"
+
 function handleNav() {
-    nav.classList.add(navOpen)
+    nav.classList.add(openNav)
 }
 
 function init() {
-    nav.addEventListener("click", handleNav)
+    closeBtn.addEventListener("click", handleNav);
 }
 
 init();
