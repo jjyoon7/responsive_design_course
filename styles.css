@@ -93,10 +93,11 @@ a {
 .nav {
     position: fixed;
     background: #005752;
+    width: 100%;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 100%;
     opacity: 0.9;
 }
 
@@ -127,6 +128,11 @@ a {
     font-size: 3rem;
     padding: 1rem;
     position: absolute;
+    transform: translateX(0%)
+}
+
+.open-nav {
+    transform: translateX(-100%);
 }
 
 /* ==================
