@@ -119,6 +119,16 @@ a {
     color: #001a17;
 }
 
+.close-nav {
+    border: 0;
+    background: 0;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 1rem;
+    position: absolute;
+}
+
 /* ==================
     hero area
 ===================== */
