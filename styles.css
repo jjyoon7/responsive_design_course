@@ -27,6 +27,9 @@ p {
 
 a {
     text-decoration: none;
+    color: #005752;
+    font-weight: 700;
+    margin: 0;
 }
 
 .btn {
@@ -38,6 +41,10 @@ a {
 
 .accent-color {
     color: #005752;
+}
+
+.nav-link {
+    color: #fff;
 }
 
 .hero-title {
@@ -60,6 +67,39 @@ a {
                         ". info-01 info-02 info-03 ."
                         ". footer footer social ."; */
     /* gap: 1em; */
+}
+/* ==================
+    navigation
+===================== */
+
+.header {
+    background: #005752;
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    /* grid-template-areas: 
+                        "logo . . . . nav"; */
+}
+
+.header-content {
+    display: flex;
+    grid-column: 2 / -2;
+
+}
+
+.logo {
+    margin-bottom: -0.45em;
+}
+
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link:hover {
+    color: #001a17;
 }
 
 /* ==================
@@ -136,7 +176,7 @@ a {
 
 @media (min-width: 550px) {
     .main-grid {
-        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(150px, 320px)) minmax(1em, 1fr);
+        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(140px, 350px)) minmax(1em, 1fr);
         grid-column-gap: 2em;
     }
     .hero > * {
