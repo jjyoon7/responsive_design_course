@@ -90,13 +90,30 @@ a {
     margin-bottom: -0.45em;
 }
 
+.nav {
+    position: fixed;
+    background: #005752;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
 
 .nav-list {
     display: flex;
     margin: 0;
     padding: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
+.nav-link {
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 .nav-link:hover {
     color: #001a17;
