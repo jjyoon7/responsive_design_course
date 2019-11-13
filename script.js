@@ -3,7 +3,7 @@ const nav = document.querySelector(".nav")
 const navOpen = "open-nav"
 
 function handleNav() {
-    nav.classList.add(openNav)
+    nav.classList.remove(navOpen)
 }
 
 function init() {

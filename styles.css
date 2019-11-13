@@ -129,11 +129,12 @@ a {
     padding: 1rem;
     position: absolute;
     transform: translateX(50%);
+    cursor: pointer;
 }
-/* 
-/* .open-nav {
+
+.open-nav {
     transform: translateX(-100%);
-} */ */
+}
 
 /* ==================
     hero area
