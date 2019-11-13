@@ -1,4 +1,5 @@
-const closeBtn = document.querySelector(".close-nav")
+const closeBtn = document.querySelector(".close-nav");
+const nav = document.querySelector(".nav")
 const navOpen = "open-nav"
 
 function handleNav() {
