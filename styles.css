@@ -136,10 +136,10 @@ a {
     border: 0;
     background: 0;
     color: #FFF;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     font-weight: 700;
     font-size: 2rem;
-    transform: translateX(-100%);
+    /* transform: translateX(-100%); */
     cursor: pointer;
     margin-left: auto;
 }
