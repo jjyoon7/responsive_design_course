@@ -128,7 +128,6 @@ a {
     font-size: 3rem;
     padding: 1rem;
     position: absolute;
-    transform: translateX(50%);
     cursor: pointer;
 }
 
@@ -136,10 +135,10 @@ a {
     border: 0;
     background: 0;
     color: #FFF;
+    background: #005752;
     /* padding: 0.5rem; */
     font-weight: 700;
     font-size: 2rem;
-    /* transform: translateX(-100%); */
     cursor: pointer;
     margin-left: auto;
 }
