@@ -9,6 +9,11 @@ body {
     line-height: 1.5;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 /* ==================
     typography
 ===================== */
@@ -210,7 +215,7 @@ a {
     about-me area
 ===================== */
 
-.main-grid > * {
+.main-template > * {
     grid-column: 2 / -2;
 }
 
