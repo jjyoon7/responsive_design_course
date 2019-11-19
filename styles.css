@@ -300,6 +300,8 @@ label {
 
 input, textarea {
     margin-bottom: 0.5rem;
+    padding: 0.75em;
+    font-family: inherit;
 }
 
 textarea {
