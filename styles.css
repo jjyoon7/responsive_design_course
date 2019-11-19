@@ -220,9 +220,6 @@ a {
 .about-me-title,
 .about-me-subtitle {
     text-align: center;
-}
-
-.about-me-title {
     justify-self: center;
 }
 
