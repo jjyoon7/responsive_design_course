@@ -41,6 +41,7 @@ a {
     font-weight: 700;
     border-radius: 2px;
     text-decoration: none;
+    border: none;
 }
 
 .btn-primary {
@@ -300,7 +301,7 @@ label {
 
 input, textarea {
     margin-bottom: 0.5rem;
-    padding: 0.75em;
+    padding: 0.5em;
     font-family: inherit;
 }
 
@@ -312,6 +313,10 @@ textarea {
 .contact-form {
     display: grid;
     margin-bottom: 3rem;
+}
+
+.btn-form {
+    justify-self: end;    
 }
 
 @media (min-width:550px) {
