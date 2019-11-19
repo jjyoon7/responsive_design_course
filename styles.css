@@ -240,6 +240,10 @@ a {
     margin-top: 2rem;
 }
 
+.section-title::after {
+    
+}
+
 @media (min-width:550px) {
     .about-me-subtitle {
         /* how to give a max-width on subtitle without messing up with the grid */
