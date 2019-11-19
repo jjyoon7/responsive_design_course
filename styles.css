@@ -294,6 +294,7 @@ a {
 
 .contact-form {
     /* grid-column: 3 / span 2; */
+    display: grid;
     margin-bottom: 3rem;
 }
 
