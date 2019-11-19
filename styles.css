@@ -288,15 +288,22 @@ a {
 ===================== */
 
 .contact-info {
-    grid-column: 2 / span 1;
+    /* grid-column: 2 / span 1; */
 }
 
 .contact-form {
-    grid-column: 3 / span 2;
+    /* grid-column: 3 / span 2; */
+    margin-bottom: 3rem;
 }
 
-.contact-msg {
-    grid-column: 3 / 5;
+@media (min-width:550px) {
+    .contact-info {
+        grid-column: 2 / span 1;
+    }
+
+    .contact-form {
+        grid-column: 3 / span 2;
+    }  
 }
 
 /* ==================
