@@ -36,14 +36,14 @@
                 <p class="main-p">You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
             </div>
 
-            <form class="contact-form">
-                <label>First Name</label>
-                <input type="text" placeholder="first name">
+            <form class="contact-form" action="#" method="POST">
+                <label for="fname">First Name</label>
+                <input id="fname" class="contact-name" type="text" placeholder="first name">
                 <label>Email</label>
-                <input type="email" placeholder="email">
+                <input class="contact-email" type="email" placeholder="email">
                 <label>Message</label>
                 <input class="contact-msg" type="text" placeholder="write here">
-                <button type="submit">send</button>
+                <button class="btn btn-primary" type="submit">send</button>
             </form>
             
         </main>
