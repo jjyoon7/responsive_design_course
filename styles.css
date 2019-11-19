@@ -37,10 +37,16 @@ a {
 }
 
 .btn {
+    padding: 0.4em 1.25em;
+    font-weight: 700;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.btn-primary {
     color: #FFF;
     background: #005752;
-    padding: 0.4em 1.25em;
-    border-radius: 2px;
+    justify-self: start;
 }
 
 .accent-color {
@@ -288,12 +294,20 @@ a {
     contact 
 ===================== */
 
-.contact-info {
-    /* grid-column: 2 / span 1; */
+label {
+    font-weight: 700;
+}
+
+input, textarea {
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
 }
 
 .contact-form {
-    /* grid-column: 3 / span 2; */
     display: grid;
     margin-bottom: 3rem;
 }
