@@ -241,7 +241,7 @@ a {
 }
 
 .section-title::after {
-    
+    content:"";
 }
 
 @media (min-width:550px) {
