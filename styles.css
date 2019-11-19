@@ -207,6 +207,37 @@ a {
 }
 
 /* ==================
+    about-me area
+===================== */
+
+.main-grid > * {
+    grid-column: 2 / -2;
+}
+
+.about-me-title,
+.about-me-subtitle {
+    text-align: center;
+}
+
+.about-me-title,
+.about-me-img {
+    margin-top: 2rem;
+}
+
+.about-me-img {
+    width: 100%;
+}
+
+.main-text {
+    margin: 2rem 0;
+}
+
+.section-title {
+    margin: 0;
+    margin-top: 2rem;
+}
+
+/* ==================
     footer
 ===================== */
 
@@ -243,7 +274,7 @@ a {
 }
 
 .footer-logo {
-    max-width: 50%;
+    max-width: 30%;
 }
 
 /* ==================
