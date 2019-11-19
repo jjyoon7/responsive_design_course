@@ -88,6 +88,7 @@ a {
 
 .logo {
     margin-bottom: -0.45em;
+    max-height: 80px;
 }
 
 .nav {
@@ -147,6 +148,29 @@ a {
     font-size: 2rem;
     cursor: pointer;
     margin-left: auto;
+}
+
+@media (min-width: 550px) {
+   .close-nav,
+   .open-nav {
+       display: none;
+   }
+   .nav {
+       position: initial; 
+   }
+   .nav-list {
+       flex-direction: row;
+       justify-content: flex-start;
+   }
+   .nav-item {
+       margin-left: 2rem;
+   }
+   .nav-link {
+       font-size: 1rem;
+   }
+   .logo {
+       max-height: 100px;
+   }
 }
 
 /* ==================
