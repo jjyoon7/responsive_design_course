@@ -50,6 +50,11 @@ a {
     justify-self: start;
 }
 
+.btn-form {
+    /* margin-left: auto; */
+    justify-self: end;    
+}
+
 .accent-color {
     color: #001a17;
 }
@@ -313,10 +318,6 @@ textarea {
 .contact-form {
     display: grid;
     margin-bottom: 3rem;
-}
-
-.btn-form {
-    justify-self: end;    
 }
 
 @media (min-width:550px) {
